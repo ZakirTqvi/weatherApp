@@ -91,3 +91,12 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media(max-width:450px) {
+    .search button {
+        background: none;
+    }
+    .search button img{
+        width: 20px;
+    }
+}
